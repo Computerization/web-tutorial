@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-overlay"></div>
+  
+  <header class="header">
+    <div class="quick-links">
+      <a href="https://x.com/Carin_Official" class="quick-link" target="_blank" rel="noopener">
+        <div class="quick-link-image">
+          <img src="img/carin.jpg" alt="礒部花凜">
+          <div class="quick-link-overlay"></div>
+        </div>
+        <p>礒部花凜</p>
+      </a>
+      <a href="https://x.com/yuno_yumemita" class="quick-link" target="_blank" rel="noopener">
+        <div class="quick-link-image">
+          <img src="img/yuno.jpg" alt="千石ユノ">
+          <div class="quick-link-overlay"></div>
+        </div>
+        <p>千石ユノ</p>
+      </a>
+      <a href="https://x.com/yuki_nakashim" class="quick-link" target="_blank" rel="noopener">
+        <div class="quick-link-image">
+          <img src="img/yuki.jpg" alt="中島由貴">
+          <div class="quick-link-overlay"></div>
+        </div>
+        <p>中島由貴</p>
+      </a>
+      <a href="https://x.com/YUI_STAFF" class="quick-link" target="_blank" rel="noopener">
+        <div class="quick-link-image">
+          <img src="img/yui.jpg" alt="石川由依">
+          <div class="quick-link-overlay"></div>
+        </div>
+        <p>石川由依</p>
+      </a>
+      <a href="https://x.com/Lynn_0601_" class="quick-link" target="_blank" rel="noopener">
+        <div class="quick-link-image">
+          <img src="img/lynn.jpg" alt="Lynn">
+          <div class="quick-link-overlay"></div>
+        </div>
+        <p>Lynn</p>
+      </a>
+      <a href="https://mail.google.com/mail" class="quick-link" target="_blank" rel="noopener">
+        <div class="quick-link-image">
+          <img src="img/gmail.jpg" alt="Gmail">
+          <div class="quick-link-overlay"></div>
+        </div>
+        <p>Gmail</p>
+      </a>
+    </div>
+    <div class="info-panel">
+      <div class="time-display">
+        <span id="time" class="time"></span>
+        <span id="date" class="date"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="search-main-section">
+      <form class="search-form" action="https://www.google.com/search" method="get" autocomplete="off">
+        <div class="search-wrapper">
+          <input type="text" name="q" placeholder="Search Google..." id="main-search-input">
+        </div>
+      </form>
+    </section>
+
+    <div class="notes-reminders-container">
+      <section class="reminders-section">
+        <div class="section-header">
+          <h2 class="section-title">Weekly Reminders</h2>
+          <button id="add-reminder-btn" class="btn-add-reminder">+</button>
+        </div>
+        <ul id="reminders-list" class="reminders-list"></ul>
+      </section>
+
+      <section class="notes-section">
+        <h2 class="section-title">Quick Notes</h2>
+        <div class="notes-container">
+          <div class="note-input-group">
+            <input id="note-input" type="text" placeholder="Add a new note..." maxlength="100">
+            <button id="add-note" class="btn-add">
+              <span>+</span>
+            </button>
+          </div>
+          <ul id="notes-list" class="notes-list"></ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div id="reminder-panel" class="reminder-panel">
+    <div class="panel-content">
+      <h3>Add New Reminder</h3>
+      <div class="panel-body">
+        <input type="text" id="reminder-text" placeholder="Reminder text..." maxlength="100">
+        <select id="reminder-day">
+          <option value="0">Sunday</option>
+          <option value="1">Monday</option>
+          <option value="2">Tuesday</option>
+          <option value="3">Wednesday</option>
+          <option value="4">Thursday</option>
+          <option value="5">Friday</option>
+          <option value="6">Saturday</option>
+        </select>
+        <button id="add-to-list" class="btn-add-to-list">Add to List</button>
+        <div id="pending-reminders" class="pending-reminders"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
