@@ -1,6 +1,6 @@
 # Quick Access Tab
 
-Version: 1.2.4
+Version: 1.2.5
 
 Developer: yszdlzn3195918
 
@@ -87,3 +87,48 @@ This extension stores user data (Notes and Reminders) in the browser's localStor
 ## License
 
 This project is provided for personal use. All rights reserved by the developer.
+
+## Update Records
+### Version 0.9 
+
+Basic search bars.
+
+### Version 1.0
+
+Quick links added.
+
+#### Version 1.0.1
+
+Used Ubuntu and Noto Sans JP as font.
+
+### Version 1.1
+
+Added time and date.
+
+#### Version 1.1.1
+
+Added Notes.
+
+### Version 1.2
+
+Added Daily Reminders (Not functioning).
+
+#### Version 1.2.1
+
+Added slide-in panel.
+
+#### Version 1.2.2
+
+Updates in slide-in panel. 
+
+#### Version 1.2.3
+
+Introducing the notes-reminders-container.
+
+#### Version 1.2.4
+
+Changing positions of notes-reminders-container and search bar. Updated search bar focus. 
+
+#### Version 1.2.5
+
+Enabling click-outside functionality to close the slide-in panel. 

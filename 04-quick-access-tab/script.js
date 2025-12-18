@@ -282,6 +282,29 @@ addBtn.onclick = (e) => {
   }
 };
 
+
+// Close panel when clicking outside
+document.addEventListener('click', (e) => {
+    if (isPanelOpen) {
+        // Check if click is outside both panel and button
+        const clickedInsidePanel = panel.contains(e.target);
+        const clickedButton = addBtn.contains(e.target);
+
+        if (!clickedInsidePanel && !clickedButton) {
+            // Close and save if there are pending reminders
+            if (pendingReminders.length > 0) {
+                reminders = [...reminders, ...pendingReminders];
+                localStorage.setItem('reminders', JSON.stringify(reminders));
+                renderReminders(); // Refresh main page list
+            }
+            panel.classList.remove('active');
+            addBtn.classList.remove('active');
+            isPanelOpen = false;
+            pendingReminders = [];
+        }
+    }
+});
+
 // Add to pending list
 addToListBtn.onclick = (e) => {
   e.preventDefault(); // Prevent page refresh

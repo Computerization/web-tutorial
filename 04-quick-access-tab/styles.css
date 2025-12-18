@@ -269,9 +269,7 @@ body {
   font-weight: 300;
 }
 
-/* ============================================
-   NOTES SECTION
-   ============================================ */
+/* Notes section */
 .notes-section {
   width: 100%;
   max-width: 450px;
@@ -433,9 +431,7 @@ body {
   transition: opacity 0.5s ease;
 }
 
-/* ============================================
-   REMINDERS SECTION
-   ============================================ */
+/* Reminders Section */
 .reminders-section {
   width: 100%;
   max-width: 450px;
@@ -571,9 +567,7 @@ body {
 }
 
 
-/* ============================================
-   SLIDE-IN PANEL
-   ============================================ */
+/* Slide-in panel */
 .reminder-panel {
   position: fixed !important;
   right: -400px;
@@ -683,9 +677,7 @@ body {
   transform: scale(1.2);
 }
 
-/* ============================================
-   RESPONSIVE DESIGN
-   ============================================ */
+/* Responsive design */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
