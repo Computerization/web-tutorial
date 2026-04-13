@@ -857,3 +857,5 @@ const res = await fetch("/api/login", {
 | **端口** | 标识计算机上特定服务的数字。就像建筑物中的公寓号码。端口 3000 = 我们的应用，端口 8001 = 学校服务器 |
 | **正则表达式** | 一种用于在字符串中查找文本的模式匹配语言。这里用于从 HTML 中提取数据 |
 | **npm** | Node 包管理器 —— 下载和管理 JavaScript 库。`npm install` 下载 package.json 中列出的内容 |
+
+[← 回到上页](../README.md)

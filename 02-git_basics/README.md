@@ -40,3 +40,5 @@ Run git init to start tracking changes.
 Create a file named hello.txt and run git add hello.txt.
 
 Save your progress using git commit -m "First commit".
+
+[← Back to Home](../README.md)

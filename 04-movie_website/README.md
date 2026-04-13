@@ -34,3 +34,5 @@ Open the 03-movie_website folder.
 Launch index.html in your favorite web browser.
 
 Browse the "Popular" movies that load by default, or type a movie name into the search box and press Enter to update the list.
+
+[← Back to Home](../README.md)

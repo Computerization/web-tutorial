@@ -858,3 +858,5 @@ The student never sees this — it's completely invisible. From their perspectiv
 | **Port** | A number that identifies a specific service on a computer. Like apartment numbers in a building. Port 3000 = our app, port 8001 = school server |
 | **Regex** | A pattern-matching language for finding text within strings. Used here to extract data from HTML |
 | **npm** | Node Package Manager — downloads and manages JavaScript libraries. `npm install` downloads what's listed in `package.json` |
+
+[← Back to Home](../README.md)
